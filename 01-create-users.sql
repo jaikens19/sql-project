@@ -1,5 +1,6 @@
 -- In this file, you will create some users for later exercises.
-
+create user aa_times with password '6g73WE2V';
+create user project_management_app with password 'Q3HphPJ8';
 -- Create the following normal users with the indicated names and passwords
 -- | name                   | password |
 -- |------------------------|----------|
@@ -8,7 +9,7 @@
 
 
 
-
+create user data_admin with password 'ik2fiDri' superuser;
 -- Create the following superuser with the indicated name and password
 -- | name       | password |
 -- |------------|----------|
